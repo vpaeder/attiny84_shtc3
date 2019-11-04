@@ -16,3 +16,4 @@ The main loop wakes up the attiny84 every 8 seconds, which in turn wakes up the 
 
 ## Notes
 * It may fit (not tested) in an attiny44 by using the MCU's I2C driver (see *Universal Serial Interface* in attiny datasheet)
+* The *setup* and *main loop* sections of *main()* function may be split to match Arduino's nomenclature
